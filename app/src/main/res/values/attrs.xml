@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="lock_screen">
+        <attr name="itemCount" format="integer"/>
+        <attr name="mSmallRadius" format="dimension"/>
+        <attr name="mBigRadius" format="dimension"/>
+        <attr name="mNormalColor" format="color"/>
+        <attr name="mRightColor" format="color"/>
+        <attr name="mWrongColor" format="color"/>
+        <attr name="mChooseColor" format="color"/>
+    </declare-styleable>
+</resources>

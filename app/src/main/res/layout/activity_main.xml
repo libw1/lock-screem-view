@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.libowen.lockscreenviewdemo.MainActivity">
+
+    <com.example.libowen.lockscreenviewdemo.LockScreenViewGroup
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lock_screen_view"
+        app:mNormalColor="#666666"
+        app:mSmallRadius="8dp"
+        app:mBigRadius="16dp"
+        app:mRightColor="#33FF66"
+        app:mChooseColor="#1e249b"
+        app:mWrongColor="#FF3333">
+
+    </com.example.libowen.lockscreenviewdemo.LockScreenViewGroup>
+
+</android.support.constraint.ConstraintLayout>
